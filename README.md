@@ -4,9 +4,9 @@
 
 [![Firefox Add-on](images/badge-amo.png)](https://addons.mozilla.org/en-US/firefox/addon/nitter-redirect/) [![Chrome Extension](images/badge-chrome.png)](https://chrome.google.com/webstore/detail/nitter-redirect/mohaicophfnifehkkkdbcejkflmgfkof)
 
-A simple browser extension that redirects Twitter requests to [Nitter](https://github.com/zedeus/nitter) instead.
+A simple browser extension that redirects X (formerly Twitter) requests to [Nitter](https://github.com/zedeus/nitter) instead.
 
-No unnecessary permissions required, only listens for and redirects requests made to `twitter.com`, `www.twitter.com`, `mobile.twitter.com`, `pbs.twimg.com` & `video.twimg.com`, nothing else.
+No unnecessary permissions required, only listens for and redirects requests made to `x.com`, `www.x.com`, `mobile.x.com` `twitter.com`, `www.twitter.com`, `mobile.twitter.com`, `pbs.twimg.com` & `video.twimg.com`, nothing else.
 
 Allows for setting custom [Nitter instances](https://github.com/zedeus/nitter/wiki/Instances) and toggling redirects on & off.
 

@@ -54,6 +54,9 @@ browser.webRequest.onBeforeRequest.addListener(
   },
   {
     urls: [
+      "*://x.com/*",
+      "*://www.x.com/*",
+      "*://mobile.x.com/*",
       "*://twitter.com/*",
       "*://www.twitter.com/*",
       "*://mobile.twitter.com/*",

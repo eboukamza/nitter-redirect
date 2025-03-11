@@ -14,6 +14,9 @@
   "content_scripts": [
     {
       "matches": [
+        "*://x.com/*",
+        "*://www.x.com/*",
+        "*://mobile.x.com/*",
         "*://twitter.com/*",
         "*://www.twitter.com/*",
         "*://mobile.twitter.com/*",
@@ -28,9 +31,10 @@
     "storage",
     "webRequest",
     "webRequestBlocking",
+    "*://x.com/*",
+    "*://www.x.com/*",
+    "*://mobile.x.com/*",
     "*://twitter.com/*",
-    "*://www.twitter.com/*",
-    "*://mobile.twitter.com/*",
     "*://pbs.twimg.com/*",
     "*://video.twimg.com/*"
   ],

@@ -24,7 +24,7 @@ browser.storage.sync.get(["nitterDisabled", "instance"], (result) => {
   instance = result.instance || nitterDefault;
   navigator.serviceWorker.getRegistrations().then((registrations) => {
     for (let registration of registrations) {
-      if (registration.scope === "https://twitter.com/") {
+      if (registration.scope === "https://twitter.com/" || registration.scope === 'https://x.com/') {
         registration.unregister();
         console.log("Unregistered Twitter SW", registration);
       }
