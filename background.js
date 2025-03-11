@@ -1,6 +1,6 @@
 "use strict";
 
-const nitterDefault = "https://nitter.net";
+const nitterDefault = "https://xcancel.com";
 
 let instance;
 let nitterDisabled;
